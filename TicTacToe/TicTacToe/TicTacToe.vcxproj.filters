@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="TicTacToeGame.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Board.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TicTacToeGame.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Board.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{22a5adf5-0b36-4499-a111-f72659c3bbaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures">
+      <UniqueIdentifier>{0a36b1dd-8ea8-4e66-b4eb-abe716cbcf0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Content\Textures\O-icon.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\X-icon.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\empty-icon.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
